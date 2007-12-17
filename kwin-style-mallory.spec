@@ -16,7 +16,6 @@ Patch0:			mallory-0.9-automake.patch
 URL:			http://kdelook.org/content/show.php?content=21650
 BuildRequires:		kdebase-devel
 BuildRequires:		chrpath
-BuildRoot:		%{_tmppath}/%{name}-buildroot
 
 %description
 Just another very flat window decoration with very original 
