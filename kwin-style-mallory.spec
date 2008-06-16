@@ -2,7 +2,7 @@
 %define theme_name	mallory
 %define name		%{base_name}-%{theme_name}
 %define version		0.9
-%define release %mkrel 7
+%define release %mkrel 8
 %define summary		Mallory kwinstyle for KDE
 
 Name:			%{name}
