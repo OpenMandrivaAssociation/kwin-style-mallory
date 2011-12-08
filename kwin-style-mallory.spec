@@ -51,7 +51,7 @@ perl -pi -e "s@/lib(\"|\b[^/])@/%_lib\1@g if /(kde|qt)_(libdirs|libraries)=/" co
 %install
 %makeinstall_std
 
-cat > $RPM_BUILD_DIR/%{theme_name}-%{version}/README.urpmi << EOF
+cat > %{_builddir}/%{theme_name}-%{version}/README.urpmi << EOF
 
 ######################### More informations ########################
 
