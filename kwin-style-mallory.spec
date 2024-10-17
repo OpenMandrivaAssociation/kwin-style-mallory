@@ -13,7 +13,7 @@ License:		GPL
 Group:			Graphical desktop/KDE
 Source:			21650-%{theme_name}-%{version}.tar.bz2
 Patch0:			mallory-0.9-automake.patch
-URL:			http://kdelook.org/content/show.php?content=21650
+URL:			https://kdelook.org/content/show.php?content=21650
 BuildRequires:		kdebase-devel
 BuildRequires:		chrpath
 BuildRoot:		%{_tmppath}/%{name}-buildroot
