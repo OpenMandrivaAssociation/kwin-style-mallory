@@ -14,6 +14,11 @@ Group:			Graphical desktop/KDE
 Source:			21650-%{theme_name}-%{version}.tar.bz2
 Patch0:			mallory-0.9-automake.patch
 URL:			https://kdelook.org/content/show.php?content=21650
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:		kdebase-devel
 BuildRequires:		chrpath
 BuildRoot:		%{_tmppath}/%{name}-buildroot
